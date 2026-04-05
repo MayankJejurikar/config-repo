@@ -29,4 +29,4 @@ management:
       exposure:
         include: refresh    
     
-message: Hello from Config Server(Student service)
+message: Hello from Config Server
