@@ -23,4 +23,10 @@ eureka:
   instance:
     prefer-ip-address: true
     
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh    
+    
 message: Hello from Config Server
