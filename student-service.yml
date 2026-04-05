@@ -2,7 +2,12 @@ server:
   port: 8081
 
 spring:
-  application:
-    name: student-service
+    application:
+        name: student-service
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: mayank1234
+        url: jdbc:mysql://localhost:3306/studentmanagementsystem
+        username: root
 
 message: Hello from Config Server
