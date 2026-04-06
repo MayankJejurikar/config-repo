@@ -23,4 +23,4 @@ eureka:
     instance:
         prefer-ip-address: true
         
-message: Hello Course service from Config Server. Here is your configuration.
+message: Hello Course service from Config Server. Here is your configuration.Thank you.
