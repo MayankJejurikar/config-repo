@@ -92,4 +92,4 @@ logging:
         resilience4j:
           retry: debug
 
-message: Hello Enrollment Service from Config Server
+message: Hello Enrollment Service, I am from Config Server. Here is your configuration. Thank you..
