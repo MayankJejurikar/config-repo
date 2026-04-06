@@ -2,15 +2,13 @@ server:
   port: 8001
 
 spring:
-  application:
-    name: course-service
-    
+    application:
+        name: course-service
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
         password: mayank1234
         url: jdbc:mysql://localhost:3306/studentmanagementsystem
         username: root
-        
     jpa:
         hibernate:
             ddl-auto: update
