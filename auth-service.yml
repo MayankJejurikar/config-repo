@@ -1,2 +1,11 @@
 server:
   port: 9001
+spring:
+  datasource:
+    username: root
+    password: mayank1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
