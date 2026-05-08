@@ -4,11 +4,6 @@ server:
 spring:
     application:
         name: student-service
-    datasource:
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        password: mayank1234
-        url: jdbc:mysql://mysql-db:3306/student
-        username: root
     jpa:
         hibernate:
             ddl-auto: update
@@ -17,8 +12,6 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    service-url:
-      defaultZone: http://eureka-server:8761/eureka
 
   instance:
     prefer-ip-address: true
